@@ -138,4 +138,138 @@ The calculated average humidity is:
 
 **66.1%**
 
-The notebook also visualizes weather-related variations
+The notebook also visualizes weather-related variations to make the patterns easier to interpret.
+
+---
+
+## 🌬️ Wind Speed Analysis
+
+Wind speed is analyzed using the `WindSpeed3pm` column.
+
+The project calculates the average wind speed and visualizes its variation across the observed days.
+
+**Average wind speed:** 17.6 km/h
+
+---
+
+## 📈 Correlation Analysis
+
+A correlation matrix is created using:
+
+* Minimum temperature
+* Maximum temperature
+* Rainfall
+* Humidity
+* Atmospheric pressure
+* Wind speed
+
+The project uses Pandas `.corr()` to calculate relationships between the numerical weather parameters.
+
+A **correlation heatmap** is also created using Matplotlib to provide a visual representation of these relationships.
+
+---
+
+## 📊 Visualizations
+
+The notebook includes visual analysis for different weather parameters, including:
+
+* Minimum and maximum temperature variation
+* Rainfall patterns
+* Wind-speed variation
+* Correlation heatmap
+* Other weather parameter visualizations
+
+These visualizations help make the numerical patterns easier to understand.
+
+---
+
+## 📌 Key Findings
+
+Based on the analysis performed in the notebook:
+
+1. The dataset contains daily weather observations.
+2. Temperature varies across different days.
+3. Humidity levels show noticeable variation.
+4. Rainfall varies between different days.
+5. Wind speed changes across the observations.
+6. Correlation analysis helps examine relationships between weather parameters.
+7. Data visualization makes weather patterns easier to understand.
+
+---
+
+## 📁 Project Structure
+
+```text
+weather-data-analysis-python/
+│
+├── README.md
+├── weather_data_analysis.ipynb
+└── requirements.txt
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### Option 1: Google Colab
+
+1. Open Google Colab.
+2. Upload `weather_data_analysis.ipynb`.
+3. Run the cells sequentially.
+
+### Option 2: Jupyter Notebook
+
+Clone or download this repository and open the notebook using Jupyter Notebook or JupyterLab.
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then open:
+
+```text
+weather_data_analysis.ipynb
+```
+
+and run the cells.
+
+---
+
+## 📚 Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+* Python for Data Analysis
+* Pandas DataFrames
+* NumPy
+* Data inspection
+* Missing-value checking
+* Descriptive statistics
+* Data visualization
+* Correlation analysis
+* Matplotlib
+* Exploratory Data Analysis (EDA)
+
+---
+
+## 🚀 Future Improvements
+
+Possible improvements for a future version include:
+
+* Use a larger real-world weather dataset
+* Add more locations
+* Perform time-series analysis
+* Add advanced statistical analysis
+* Create interactive visualizations
+* Build a weather dashboard using Power BI or another visualization platform
+* Develop a weather prediction model using machine learning
+
+---
+
+## 👩‍💻 Project Author
+
+**Hiniyasri P.**
+
+This project was created as part of a learning journey in **Python, Data Analysis, and Data Visualization**.
